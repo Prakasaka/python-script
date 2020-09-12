@@ -10,15 +10,15 @@ def green(green): return f"\033[1;32m{green}\033[0m"
 
 # Main function for replace some normal characters with special characters
 def nor_to_spcl():
-    char_rplc = name.replace('a', '4')
-    char_rplc = char_rplc.replace('c', '<')
-    char_rplc = char_rplc.replace('e', '3')
-    char_rplc = char_rplc.replace('h', '#')
-    char_rplc = char_rplc.replace('i', '!')
-    char_rplc = char_rplc.replace('o', '0')
-    char_rplc = char_rplc.replace('s', '$')
-    char_rplc = char_rplc.replace('t', '7')
-    print(green(f"\nYour special string - {char_rplc}"))
+    char = name.replace('a', '4')
+    char = char.replace('c', '<')
+    char = char.replace('e', '3')
+    char = char.replace('h', '#')
+    char = char.replace('i', '!')
+    char = char.replace('o', '0')
+    char = char.replace('s', '$')
+    char = char.replace('t', '7')
+    print(green(f"\nYour special string - {char}"))
 
 # This function for limiting characters
 def char_limit():
