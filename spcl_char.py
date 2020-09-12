@@ -10,8 +10,7 @@ def green(green): return f"\033[1;32m{green}\033[0m"
 
 # Main function for replace some normal characters with special characters
 def nor_to_spcl():
-    char_a = ['@', '4']
-    char_rplc = name.replace('a', choice(char_a))
+    char_rplc = name.replace('a', '4')
     char_rplc = char_rplc.replace('c', '<')
     char_rplc = char_rplc.replace('e', '3')
     char_rplc = char_rplc.replace('h', '#')
